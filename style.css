@@ -21,6 +21,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 40px;
 }
 nav ul .navL{
     display: flex;
@@ -56,6 +57,23 @@ nav ul .navR{
 a{
     text-decoration: none;
     color: black;
+}
+nav .navR input{
+    position: relative;
+    top:-5px;
+}
+input{
+    
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:#C15627;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 545;
+    cursor: pointer;
+
 }
 .video video{
     width: 100%;
@@ -109,6 +127,12 @@ a{
     height: 500px;
     border-radius: 200px 0 0 ;
 }
+.sec-1 .text1 input{
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 530;
+}
 .sec-2{
     display: flex;
     justify-content: space-around;
@@ -129,6 +153,11 @@ a{
     font-weight: 500;
     text-align: start;
 }
+.sec-2 .text1 .a1 p:hover{
+    cursor: pointer;
+    color: #C15627;
+
+}
 .sec-2 .text1 .wedding{
     display: flex;
     width: 100%;
@@ -139,9 +168,22 @@ a{
     font-size: 20px;
     line-height: 3rem;
 }
+.sec-2 .text1 input{
+    margin-left: 10%;
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 530;
+}
+.sec-4{
+    background-color:rgb(238, 234, 226) ;
+    height: 800px;
+}
 .sec-3 img{
     width: 100%;
     height: 600px;
+
+
 }
 .sec-3 .text1{
     position: relative;
@@ -172,21 +214,33 @@ a{
 .sec-3 .text1 input{
     position: relative;
     top:20px;
-    margin-left: 40%;
+    margin-left: 38%;
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 530;
+
 }
 .sec-4{
+    margin-top: 20px;
     display: flex;
-    gap: 30px;
+    gap: 100px;
+
   
 }
 .sec-4 .img1 img{
     width: 600px;
     height: 600px;
     margin-left: 60px;
+    margin-top: 60px;
 }
 .sec-4 .img2 img{
     width: 600px;
     height: 600px;
+    margin-top: 60px;
+}
+.sec-5{
+    background-color: rgb(238, 234, 226);
 }
 .sec-5 h1{
     font-size: 100px;
@@ -203,10 +257,14 @@ a{
     margin-left: 20%;
     line-height: 1.5rem;
 }
+.sec-6{
+    background-color: rgb(238, 234, 226);
+}
 .sec-6 a img{
     margin-left: 17%;
     width: 1000px;
     height: 600px;
+    
 }
 .sec-6 .text1 h1{
     font-size: 100px;
@@ -259,7 +317,28 @@ a{
 }
 .sec-7 .text1 input,.sec-7 .text2 input{
     position: relative;
-    top: 20px;
+    top: 30px;
+    left: 20px;
+    background-color: transparent;
+    border:1.5px solid #C15627;
+    color: #C15627;
+    height: 40px;
+    width: 180px;
+}
+.logo1{
+    position: relative;
+    margin-left: 45%;
+    top: 210px;
+}
+.sec-8{
+    background-color: #1a4122;
+    height: 800px;
+
+}
+.sec-8 .text1{
+    margin-top: 10%;
+    position: relative;
+    top: 80px;
 }
 .sec-8 .text1 h1{
     margin-top: 10%;
@@ -273,6 +352,7 @@ a{
     text-align: center;
     margin-left: 30%;
 }
+
 .sec-8 .w1{
     display: flex;
     margin-top: 50px;
@@ -283,20 +363,27 @@ a{
     width: 500px;
     object-fit: cover;
     margin-left: 200px;
+    position: relative;
+    top:80px;
 }
 .sec-8 .w1 .text2 p{
     margin-top: 10%;
     font-size: 20px;
     width: 350px;
     font-weight: 700;
+    position: relative;
+    top:80px;
 }
 .sec-8 .w1 .text2 b{
     position: relative;
-    top:30px;
+    top:110px;
 }
 .sec-8 .w1 .text2 #t1{
    font-size: 15px;
     font-weight: 200;
+}
+.sec-9{
+    margin-top: 10%;
 }
 .sec-9 h1{
     font-size: 50px;
@@ -360,10 +447,20 @@ a{
 }
 .sec-9 input{
     margin-left: 45%;
+    margin-top: 5%;
+    height: 40px;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 530;
+    background: transparent;
+    border:1.5px solid #C15627;
+    color: #C15627;
 }
 .sec-10{
     display: flex;
 }
+
+
 .sec-10 .text1 h1{
     margin-top: 10%;
     font-size: 100px;
@@ -391,6 +488,8 @@ a{
 }
 .sec-11 .text1 {
     width: 50%;
+    background-color: #C15627;
+    color: white;
 }
 .sec-11 .img1 img{
     width: 100%;
@@ -414,13 +513,38 @@ a{
     margin-left: 125px;
     margin-top: 50px;
 }
+.sec-11 .text1 .w1 #i1{
+    background:white;
+    color: #C15627;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top:-10px; 
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.sec-11 .text1 .w1 #i2{
+    background: #993921;
+    height: 50px;
+    position: relative;
+    top:-10px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 15px;
+}
 .sec-11 .text1 #s1{
     font-size: 14px;
+}
+footer{
+    background-color: #e9e4e0;
+    margin-top: -75px;
 }
 footer .r1{
     margin-top: 5%;
     display: flex;
     gap: 50px;
+    padding-top: 100px;
     
 }
 footer .r1 .text1{
@@ -475,6 +599,7 @@ footer .r3{
     font-size: 13px;
     padding-bottom: 25px;
 }
+
 @media (max-width:320px){
     .hidem{
         display: none;
